@@ -6,8 +6,10 @@
     "dev": "nuxt dev",
     "build": "nuxt build",
     "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+    "preview": "nuxt preview"
+  },
+  "engines": {
+    "node": ">=20.18.0"
   },
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.12.0",

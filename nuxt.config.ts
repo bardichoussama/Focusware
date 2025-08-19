@@ -11,6 +11,16 @@ export default defineNuxtConfig({
       ]
     }
   },
+  nitro: {
+    preset: 'vercel'
+  },
+  compatibilityDate: '2025-08-19',
+  postcss: {
+    plugins: {
+      tailwindcss: {},
+      autoprefixer: {}
+    }
+  },
   tailwindcss: {
     viewer: false
   }
