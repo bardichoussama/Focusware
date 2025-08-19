@@ -1,6 +1,8 @@
 export default defineNuxtConfig({
-  ssr: false,
-  modules: ['@nuxtjs/tailwindcss'],
+  ssr: true,
+  modules: [
+    ['@nuxtjs/tailwindcss', { viewer: false }]
+  ],
   css: ['@/assets/css/tailwind.css'],
   components: [{ path: '~/components', pathPrefix: false }],
   app: {
@@ -27,8 +29,5 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {}
     }
-  },
-  tailwindcss: {
-    viewer: false
   }
 }) 
