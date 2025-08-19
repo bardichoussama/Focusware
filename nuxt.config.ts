@@ -12,7 +12,13 @@ export default defineNuxtConfig({
     }
   },
   nitro: {
-    preset: 'vercel'
+    preset: 'vercel-static',
+    prerender: {
+      routes: ['/', '/products', '/resources', '/about', '/contact']
+    }
+  },
+  routeRules: {
+    '/**': { prerender: true }
   },
   compatibilityDate: '2025-08-19',
   postcss: {

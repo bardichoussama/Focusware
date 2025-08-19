@@ -1,6 +1,22 @@
 {
   "version": 3,
-  "overrides": {},
+  "overrides": {
+    "resources/index.html": {
+      "path": "resources"
+    },
+    "about/index.html": {
+      "path": "about"
+    },
+    "products/index.html": {
+      "path": "products"
+    },
+    "contact/index.html": {
+      "path": "contact"
+    },
+    "index.html": {
+      "path": ""
+    }
+  },
   "routes": [
     {
       "headers": {
@@ -43,22 +59,6 @@
     },
     {
       "handle": "filesystem"
-    },
-    {
-      "src": "/__nuxt_error",
-      "dest": "/__nitro"
-    },
-    {
-      "src": "/__nuxt_error",
-      "dest": "/__nuxt_error"
-    },
-    {
-      "src": "/__nuxt_island/(?:.*)",
-      "dest": "/__nuxt_island/[...]"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/__nitro"
     }
   ]
 }
