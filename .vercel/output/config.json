@@ -1,17 +1,17 @@
 {
   "version": 3,
   "overrides": {
-    "resources/index.html": {
-      "path": "resources"
-    },
     "about/index.html": {
       "path": "about"
+    },
+    "contact/index.html": {
+      "path": "contact"
     },
     "products/index.html": {
       "path": "products"
     },
-    "contact/index.html": {
-      "path": "contact"
+    "resources/index.html": {
+      "path": "resources"
     },
     "index.html": {
       "path": ""

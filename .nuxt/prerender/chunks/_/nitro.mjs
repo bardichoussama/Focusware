@@ -607,7 +607,7 @@ function _expandFromEnv(value) {
 const _inlineRuntimeConfig = {
   "app": {
     "baseURL": "/",
-    "buildId": "62839ed7-0a15-4d14-a9e0-20908be72cb2",
+    "buildId": "d26b521a-285e-4d5b-9d1e-b6cfc6e18206",
     "buildAssetsDir": "/_nuxt/",
     "cdnURL": ""
   },
@@ -1022,7 +1022,7 @@ const _EfT_JR = eventHandler((event) => {
 
 const _SxA8c9 = defineEventHandler(() => {});
 
-const _lazy_5k2uJ4 = () => import('./renderer.mjs').then(function (n) { return n.r; });
+const _lazy_5k2uJ4 = () => import('./renderer.mjs');
 
 const handlers = [
   { route: '', handler: _EfT_JR, lazy: false, middleware: true, method: undefined },
